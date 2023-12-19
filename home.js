@@ -43,7 +43,7 @@ const getProductsDetails = async () => {
         });
         
         const description = document.querySelector(".description");
-        description.innerHTML += `<h4 class="description_details">${productData.description}</4> `
+        description.innerHTML += `<h4 class="description_details">${productData.description}</h4>`
     } catch (error) {
         console.error("Error fetching data:", error);
     }
