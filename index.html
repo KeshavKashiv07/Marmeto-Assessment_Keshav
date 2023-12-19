@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Marmeto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="main_container">
+
+        <div class="gallery-container-card">
+            <div class="main-image">
+                <!-- Large image will be displayed here -->
+            </div>
+            <div class="thumbnail-images">
+                <!-- Thumbnails will be displayed here -->
+            </div>
+        </div>
+
+        <div class="details-cointainer-card">
+            <h4 class="vendor"></h4>
+            <h1 class="title"></h1>
+            <hr>
+
+            <div class="price_dis">
+                <h1 class="price">$</h1>
+                <h4 class="off"></h4>
+            </div>
+            <h2 class="total_price"><s class="stick_price">$</s></h2>
+            <hr>
+
+            <div class="colours">
+                <h4 class="chose_color">Chose a color</h4>
+                <div class="color-selector" id="colorSelector"></div>
+                <div class="selected-color" id="selectedColor"></div>
+            </div>
+            <hr>
+
+            <div class="Size_Conatiner">
+                <h4 class="size">Select size</h4>
+                <div class="size-selector" id="sizeSelector"></div>
+            </div>
+            <div class="buttons">
+                <div class="value-adjuster">
+                    <span class="btns" id="decreaseBtn">-</span>
+                    <span id="value">0</span>
+                    <span class="btns" id="increaseBtn">+</span>
+                </div>
+                <div>
+                    <button class="addToCart"> <i class="fa fa-shopping-bag"></i> Add To Cart</button>
+                </div>
+            </div>
+            <div class="prduct_saved"></div>
+            <hr>
+
+            <div class="description"> </div>
+        </div>
+
+    </section>
+    <!-- axiox link -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Javascript file link -->
+    <script src="/home.js"></script>
+</body>
+
+</html>
